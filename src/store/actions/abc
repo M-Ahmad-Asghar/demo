@@ -1,0 +1,19 @@
+const checkEmail = () => {
+    //Check for the Name TextInput
+    if (!email.trim()) {
+      alert('Please Enter Email')
+      return;
+    }}
+    const checkPassword = () => {
+        //Check for the Name TextInput
+        if (!password.trim()) {
+          alert('Please Your Password')
+          return;
+        }}
+        const checkName = () => {
+            //Check for the Name TextInput
+            if (!fullName.trim()) {
+              alert('Please Enter Name')
+              return;
+            }}
+            ()=>{{dispatch(signupAction(email,password, fullName))}; navigation.navigate('Login'); }
